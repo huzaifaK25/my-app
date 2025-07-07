@@ -13,7 +13,7 @@ export function AccordionDemo() {
       className="w-[60%] border-2 border-blue-600 rounded-[5px] shadow-2xs shadow-gray-400"
       defaultValue="item-1"
     >
-      <AccordionItem value="item-1">
+      <AccordionItem className="border-2 border-amber-400" value="item-1">
         <AccordionTrigger>Product Information</AccordionTrigger>
         <AccordionContent className="flex flex-col gap-4 text-balance">
           <p>
