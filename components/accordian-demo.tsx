@@ -10,12 +10,12 @@ export function AccordionDemo() {
     <Accordion
       type="single"
       collapsible
-      className="w-[60%] border-2 border-blue-600 rounded-[5px] shadow-2xs shadow-gray-400"
+      className="w-[60%] border-1 border-gray-300 shadow-md"
       defaultValue="item-1"
     >
-      <AccordionItem className="border-2 border-amber-400" value="item-1">
+      <AccordionItem className="" value="item-1">
         <AccordionTrigger>Product Information</AccordionTrigger>
-        <AccordionContent className="flex flex-col gap-4 text-balance">
+        <AccordionContent className="flex flex-col gap-4 text-balance p-2">
           <p>
             Our flagship product combines cutting-edge technology with sleek
             design. Built with premium materials, it offers unparalleled
@@ -29,7 +29,7 @@ export function AccordionDemo() {
       </AccordionItem>
       <AccordionItem value="item-2">
         <AccordionTrigger>Shipping Details</AccordionTrigger>
-        <AccordionContent className="flex flex-col gap-4 text-balance">
+        <AccordionContent className="flex flex-col gap-4 text-balance p-2">
           <p>
             We offer worldwide shipping through trusted courier partners.
             Standard delivery takes 3-5 business days, while express shipping
@@ -43,7 +43,7 @@ export function AccordionDemo() {
       </AccordionItem>
       <AccordionItem value="item-3">
         <AccordionTrigger>Return Policy</AccordionTrigger>
-        <AccordionContent className="flex flex-col gap-4 text-balance">
+        <AccordionContent className="flex flex-col gap-4 text-balance p-2">
           <p>
             We stand behind our products with a comprehensive 30-day return
             policy. If you&apos;re not completely satisfied, simply return the

@@ -10,6 +10,8 @@ import { ComboBoxResponsive } from '@/components/combobox-responsive';
 import { CommandDemo } from '@/components/command-demo';
 import { CustomButton } from '@/components/custom-button';
 import { DialogDemo } from '@/components/dialog-demo';
+import Form from '@/components/form';
+import FramerMotionDemo from '@/components/framer-motion';
 import { HoverCardDemo } from '@/components/hovercard-demo';
 import { NavigationMenuDemo } from '@/components/nav-demo';
 import { PopoverDemo } from '@/components/popover-demo';
@@ -18,20 +20,28 @@ import { Badge } from '@/components/ui/badge';
 
 export default function Home() {
   return (
-    <div className="  flex flex-col items-center pt-20 pb-20 gap-20">
-      <AccordionDemo />
+    <div className="mx-auto">
+      {/* <Form /> */}
+
+      <FramerMotionDemo />
+
+      {/* <AccordionDemo />
 
       <AlertDemo />
 
       <CustomButton variant="primary">Submit</CustomButton>
 
-      <BadgeDemo />
-
+      
       <Badge variant="default">Badge</Badge>
       <Badge variant="outline">Badge</Badge>
       <Badge variant="secondary">Badge</Badge>
       <Badge variant="destructive">Badge</Badge>
+     
+      <BadgeDemo />
 
+      <div className="font-bold border-2 border-red-500 p-4">
+        Ctrl + k for command-demo
+      </div>
       <CommandDemo />
 
       <DialogDemo />
@@ -49,8 +59,8 @@ export default function Home() {
       <ComboboxDemo />
       <ComboboxPopover />
       <ComboboxDropdownMenu />
-      <ComboBoxResponsive />
-      <ComboboxForm />
+      
+      <ComboboxForm /> */}
     </div>
   );
 }
